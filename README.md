@@ -7,11 +7,11 @@ markdown
 
 A MATLAB-based implementation of real-time moving object detection and background removal system for video surveillance applications.
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a robust moving object detection system using background subtraction techniques in MATLAB. The system can detect and track moving objects (primarily humans) in real-time video streams while effectively removing the background for enhanced visualization.
 
-## ✨ Key Features
+## Key Features
 
 - **Real-time Motion Detection**: Uses background subtraction with dynamic thresholding
 - **Background Elimination**: Removes static background while preserving moving objects
@@ -20,7 +20,7 @@ This project implements a robust moving object detection system using background
 - **Adaptive Background Update**: Continuously updates background model for changing environments
 - **Multiple Object Tracking**: Capable of detecting and tracking multiple moving objects
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Core Algorithms
 - **Background Subtraction Method**: Pixel-by-pixel comparison with reference background
@@ -36,20 +36,20 @@ This project implements a robust moving object detection system using background
 4. **Object Classification** - Human detection using shape-based analysis
 5. **Background Elimination** - Remove static background elements
 
-## 📊 Performance Results
+## Performance Results
 
 | Test Case | Success Rate |
 |-----------|-------------|
-| Single Person Detection | ✅ 100% |
-| Body Pose Changes | ✅ 100% |
-| Multiple Persons | ✅ 100% |
-| Half-body Detection | ✅ 100% |
-| Shadow Elimination | ⚠️ 50% |
-| Moving Camera | ❌ 0% |
+| Single Person Detection |  100% |
+| Body Pose Changes |  100% |
+| Multiple Persons |  100% |
+| Half-body Detection |  100% |
+| Shadow Elimination |  50% |
+| Moving Camera |  0% |
 
 **Overall System Efficiency: 87.5%**
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 - MATLAB R2020a or later
